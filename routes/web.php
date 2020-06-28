@@ -18,7 +18,7 @@ Route::get('/', function () {
 });
 
 Route::get('/tracks', function () {
-    return view('welcome');
+    return view('tracks');
 });
 
 Route::get('/community', function () {
