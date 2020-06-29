@@ -19,9 +19,9 @@ Route::get('/', 'AppController@index');
 Route::get('/tracks', 'TrackController@track');
 
 Route::get('/community', function () {
-    return view('welcome');
+    return view('community');
 });
 
 Route::get('/support', function () {
-    return view('welcome');
+    return view('support');
 });
